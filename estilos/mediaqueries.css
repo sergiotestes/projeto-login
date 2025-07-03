@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* --- TABLET e PC PEQUENO ---*/
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+    body{
+        background: linear-gradient(to top, #465c31, #8cb662);
+    }
+
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: top;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+} 
+    
+
+
+  
+
+
+/* --- PC, TV etc ---*/
+@media screen and (min-width: 1201px){
+
+    body{
+        background: linear-gradient(to top, #465c31, #8cb662);
+    }
+
+    section#login{
+        width: 992px;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 45%;
+        height: 100%;
+        background-position: top left;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 55%;
+    }
+} 
