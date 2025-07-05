@@ -38,7 +38,6 @@ section#login{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -49,6 +48,7 @@ section#login{
 
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -112,4 +112,5 @@ form > .dontknow:hover{
 
 .text-box{
     height: 30px;
+    transform: translateY(-6px);
 }
